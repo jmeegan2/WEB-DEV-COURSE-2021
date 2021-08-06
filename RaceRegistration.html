@@ -13,29 +13,29 @@
     <h1>Race Registration!</h1>
     <form action="/raceregistration">
         <p>
-            <label for="First Name">First Name</label>
-            <input type="text" name="First Name" id="First Name" required>
-            <label for="Last Name">Last Name</label>
-            <input type="text" name="Last Name" id="Last Name" required>
+            <label for="FirstName">First Name</label>
+            <input type="text" name="FirstName" id="FirstName" required>
+            <label for="LastName">Last Name</label>
+            <input type="text" name="LastName" id="LastName" required>
         </p>
         <p>
             <label for="">Select a Race: </label>
-            <br> <br>
-            <input type="radio" name="racetype" id="Fun Run 5k">
-            <label for="Fun Run 5k">Fun Run 5k</label>
             <br>
-            <input type="radio" name="racetype" id="Half Marathon">
-            <label for="Half Marathon">Half Marathon</label>
+            <input type="radio" name="racetype" value="FunRun5k">
+            <label for="FunRun5k">Fun Run 5k</label>
+             <br>
+            <input type="radio" name="racetype" value="HalfMarathon">
+            <label for="HalfMarathon">Half Marathon</label>
             <br>
-            <input type="radio" name="racetype" id="Full Marathon">
-            <label for="Full Marathon">Fun Run 5k</label>
+            <input type="radio" name="racetype" value="FullMarathon">
+            <label for="FullMarathon">Fun Run 5k</label>
             <br>
             <label for="Email">Email</label>
             <input type="Email" name="Email" id="Email" required>
             <label for="password">Password</label>
             <input type="password" name="password" id="password" required>
             <br>
-            <label for="Select Age Group">Select Age Group</label>
+            <label for="SelectAgeGroup">Select Age Group</label>
             <select name="age" id="age">
                 <option value="Under18">Under 18</option>
                 <option value="18-40">18-40</option>
