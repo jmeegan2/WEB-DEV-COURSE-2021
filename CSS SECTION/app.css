@@ -1,21 +1,39 @@
+/* *{
+    background-color: cyan;
+} */
 
-h1{
-    text-align: center;
-    font-weight: normal;
-      /* 400 is normal 700 is bold, browser have different weight limits */
-    text-decoration: blue underline wavy;
-    letter-spacing: 15px;
-    font-size: 80px;
-    /* font-family: segoe ui, futura, arial, sans-serif; */
-    font-family: monospace;
+/* * makes universal or the whole page */
+body {
+    background-color: #f1faee;
+}
+button{
+    font-size:30px;
+    background-color: #a8dadc;
+    
 }
 
-a{
-    text-decoration: none;
+h1,h2 {
+    color:#264653;
 }
 
-p{
-    line-height: 2;
+#vote {
+    background-color: #48cae4;
+    color:#f1faee;
+}
+span{
+    color:#457b9d;
+}
 
-   
+.tag {
+    background-color: #f72585;
+    color:#f1faee;
+    font-size: 16px;
+}
+
+.post a{
+    color:#d0af54;
+}
+
+footer a {
+    color:#9d0208;
 }
