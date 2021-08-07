@@ -1,19 +1,21 @@
-h2{ 
-    color:#5FCFFC;
-    background-color: rgb(89, 151, 0);
+
+h1{
+    text-align: center;
+    font-weight: normal;
+      /* 400 is normal 700 is bold, browser have different weight limits */
+    text-decoration: blue underline wavy;
+    letter-spacing: 15px;
+    font-size: 80px;
+    /* font-family: segoe ui, futura, arial, sans-serif; */
+    font-family: monospace;
 }
 
-button {
-    color: magenta; 
-    background-color: cyan;
+a{
+    text-decoration: none;
 }
 
-P {
-    color:olive;
-    background: orange;
-    
-}
+p{
+    line-height: 2;
 
-body {
-    background-color: rgb(255, 0, 0)
+   
 }
