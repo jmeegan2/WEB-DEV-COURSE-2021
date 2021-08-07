@@ -32,6 +32,8 @@ span{
 
 .post a{
     color:#d0af54;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 footer a {
@@ -42,19 +44,42 @@ input + button {
     background-color: rgb(34, 150, 5);
 }
 
-h2 + button {
+/* h2 + button {
     font-size: 20px;
     background-color:magenta;
     color:white;
-}
+} */
 
 /* direct descendents */
 footer > a{
     color: #06d6a0;
 }
 /* attribute selector */
-input[type="password"]{
+/* input[type="password"]{
     color:greenyellow;
 }
 
-section[]
+section[class="post"]{
+    background-color: purple;
+} */
+
+a[href*="google"]{
+    color:magenta;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active{
+    background-color: #fb8500;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #dfe8dc;
+}
