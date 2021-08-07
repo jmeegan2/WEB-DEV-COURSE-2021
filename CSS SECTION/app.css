@@ -16,10 +16,10 @@ h1,h2 {
     color:#264653;
 }
 
-#vote {
+/* #vote {
     background-color: #48cae4;
     color:#f1faee;
-}
+} */
 span{
     color:#457b9d;
 }
@@ -37,3 +37,24 @@ span{
 footer a {
     color:#9d0208;
 }
+
+input + button {
+    background-color: rgb(34, 150, 5);
+}
+
+h2 + button {
+    font-size: 20px;
+    background-color:magenta;
+    color:white;
+}
+
+/* direct descendents */
+footer > a{
+    color: #06d6a0;
+}
+/* attribute selector */
+input[type="password"]{
+    color:greenyellow;
+}
+
+section[]
