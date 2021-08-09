@@ -96,13 +96,13 @@ p::selection{
     background-color: #e9c46a;
 }
 
-
+/* 
 .post button:hover {
     background-color: #e63946;
     color:#f1faee;
-}
+} */
 /* the css element with more specifity will win out in the end */
-button:hover {
+/* button:hover {
     background-color: olive ;
     font-size:10px;
 }
@@ -110,4 +110,9 @@ button:hover {
 #signup{
     background-color: black;
     color: white;
-}
+} */
+
+/* 
+button {
+    background-color: magenta !important;
+} */
