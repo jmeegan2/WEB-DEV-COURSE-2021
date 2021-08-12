@@ -11,6 +11,15 @@ h1 {
     font-weight: 100;
 }
 
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h1 + h2 {
+    margin-top: 10px;
+}
 h1,h2,h3 {
     font-family: Roboto, sans-serif;
+    font-weight: 100;
 }
