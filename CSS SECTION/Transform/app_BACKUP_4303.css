@@ -6,11 +6,16 @@ h1 {
     width: 300px;
     font-size: 1.8em;
     text-align: center;
+<<<<<<< HEAD
     margin:20px auto;
+=======
+    margin:20px;
+>>>>>>> c392e0aa30dced30347b94eed48c9e509e44d776
     font-family: Courier New;
     font-weight:lighter;
 }
 
+<<<<<<< HEAD
 h1:nth-of-type(2n) {
     background-color: #e9c46a;
 }
@@ -58,3 +63,6 @@ section:nth-of-type(2) h1:nth-of-type(4){
 section:nth-of-type(2) {
     transform:scale(0.7) translateX(500px);
 }
+=======
+h1:nth-of-type(2n)
+>>>>>>> c392e0aa30dced30347b94eed48c9e509e44d776
