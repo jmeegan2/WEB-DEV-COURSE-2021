@@ -44,5 +44,11 @@ main {
 }
 
 main .sidebar {
-    background-color: #6930
+    background-color: #6930c3;
+    flex: 1 2 300px;
+}
+
+main .maincontent {
+    background-color: #80ffdb;
+    flex: 2 1 800px;
 }
