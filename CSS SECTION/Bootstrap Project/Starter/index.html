@@ -122,6 +122,15 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 
+    <!-- First use of javascript in this course  -->
+    <script>
+      $(function () {
+        $(document).scroll(function(){
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height())
+        })
+      })
+    </script>
 </body>
 
 </html>
