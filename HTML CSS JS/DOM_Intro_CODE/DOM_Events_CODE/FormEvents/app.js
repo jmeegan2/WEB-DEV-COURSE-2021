@@ -22,4 +22,24 @@ const addTweet = (username, tweet) => {
     newTweet.append(`- ${tweet}`)
     tweetsContainer.append(newTweet);
 }
+/////////////////////////////////////////////////
 
+
+// const form = document.querySelector('form');
+// const ulContainer = document.querySelector('ul')
+ 
+// form.addEventListener('submit', function (e) {
+//     e.preventDefault();
+//     const qty = form.elements.qty.value; // you need to use .elements here (plural)
+//     const prod = form.elements.product.value; // you need to use .elements here (plural)
+ 
+//     const newLi = document.createElement('li');
+//     // newLi.append(qty);
+//     // newLi.append(prod);
+//     newLi.innerText = `${qty} ${prod}`;
+//     // ulContainer.append(newLi);
+//     ulContainer.appendChild(newLi);
+ 
+//     form.elements.qty.value = ''; // you need to use .elements here (plural)
+//     form.elements.product.value = ''; // you need to use .elements here (plural)
+// });
